@@ -1,12 +1,13 @@
 # YOLO-VOC
 
-This is a repo about modified implementation of YOLO family (now updated to **YOLOv2**) written in PyTorch from scratch, and it's also the first time I try to implement an object detection model myself.  
+This is a repo about modified implementation of YOLO family (now updated to **YOLOv3**) written in PyTorch from scratch, and it's also the first time I try to implement an object detection model myself.  
 I'm using `PyTorch 2.10.0+cu128` in `Python 3.12.0`.  
 
 | Model | Train Dataset | Val Dataset | Epochs | Input Size | Test Size | mAP@0.5/% |
 | :--- | :--- | :---| :--- | :--- | :--- | :--- |
 | YOLOv1 | VOC2007 trainval + VOC2012 trainval | VOC2007 test | 80 | multi-scale | 416x416 | 69.62 |
 | YOLOv2 | VOC2007 trainval + VOC2012 trainval | VOC2007 test | 80 | multi-scale | 416x416 | 73.84 |
+| YOLOv3 | VOC2007 trainval + VOC2012 trainval | VOC2007 test | 80 | multi-scale | 416x416 | 81.38 |
 
 ## Requirements
 ```
@@ -59,19 +60,16 @@ It will randomly select an image in the test set, and then output the model's pr
   <br>
   <em><strong>YOLOv2 Results</strong></em>
 </p>
+<br>
+<p align="center">
+  <img src="./yolov3/images/sheep.png" height="200" />
+  <img src="./yolov3/images/train.png" height="200" />
+  <br>
+  <img src="./yolov3/images/dog.png" height="200" />
+  <img src="./yolov3/images/skate.png" height="200" />
+  <br>
+  <em><strong>YOLOv3 Results</strong></em>
+</p>
 
 ## Acknowledgement
 This repo is inspired by [RT-ODLab](https://github.com/yjh0410/RT-ODLab). Thanks for the excellent works.
-
-## Support
-If you find this repo useful, a star would be greatly appreciated! 🌟  
-If you'd like to reference it, you may cite it as:
-
-```bibtex
-@misc{yolo-voc,
-  author = {Li, Chengzhe},
-  title = {YOLO-VOC: A PyTorch implementation of modified YOLO family from scratch},
-  year = {2026},
-  publisher = {GitHub},
-  url = {https://github.com/LCZ-ctrl/yolo-voc}
-}
