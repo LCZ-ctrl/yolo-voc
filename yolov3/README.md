@@ -2,9 +2,9 @@
 
 This is a modified **YOLOv3** implementation.
 
-| Model | Train Dataset | Val Dataset | Epochs | Input Size | Test Size | mAP@0.5/% |
-| :--- | :--- | :---| :--- | :--- | :--- | :--- |
-| YOLOv3 | VOC2007 trainval + VOC2012 trainval | VOC2007 test | 80 | multi-scale | 416x416 | 81.38 |
+| Model | Train Dataset | Val Dataset | Epochs | Input Size | Test Size | mAP@0.5 | mAP@0.6 | mAP@0.75
+| :--- | :--- | :---| :--- | :--- | :--- | :--- | :--- | :--- |
+| YOLOv3 | VOC2007 trainval + VOC2012 trainval | VOC2007 test | 80 | multi-scale | 416x416 | 81.38% | 75.96% | 55.01% |
 
 ## Structure
 ```
@@ -12,11 +12,11 @@ This is a modified **YOLOv3** implementation.
 |   └── VOCdevkit
 ├── model/
 |   ├── __init__.py
-|   ├── yolov2_backbone.py
-|   ├── yolov2_neck.py
-|   ├── yolov2_fpn.py
-|   ├── yolov2_head.py
-|   └── yolov2.py
+|   ├── yolov3_backbone.py
+|   ├── yolov3_neck.py
+|   ├── yolov3_fpn.py
+|   ├── yolov3_head.py
+|   └── yolov3.py
 ├── config.py
 ├── voc.py
 ├── augmentation.py
@@ -27,7 +27,7 @@ This is a modified **YOLOv3** implementation.
 └── test.py
 ```
 <em>Read files in order:</em>  
-> config.py -> yolov1.py -> voc.py -> augmentation.py -> matcher.py -> loss.py -> eval.py -> train.py -> test.py
+> config.py -> yolov3.py -> voc.py -> augmentation.py -> matcher.py -> loss.py -> eval.py -> train.py -> test.py
 
 ## Some Results
 <br>

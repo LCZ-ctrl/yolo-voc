@@ -2,9 +2,9 @@
 
 This is a modified **YOLOv1** implementation.
 
-| Model | Train Dataset | Val Dataset | Epochs | Input Size | Test Size | mAP@0.5/% |
-| :--- | :--- | :---| :--- | :--- | :--- | :--- |
-| YOLOv1 | VOC2007 trainval + VOC2012 trainval | VOC2007 test | 80 | multi-scale | 416x416 | 69.62 |
+| Model | Train Dataset | Val Dataset | Epochs | Input Size | Test Size | mAP@0.5 | mAP@0.6 | mAP@0.75
+| :--- | :--- | :---| :--- | :--- | :--- | :--- | :--- | :--- |
+| YOLOv1 | VOC2007 trainval + VOC2012 trainval | VOC2007 test | 80 | multi-scale | 416x416 | 69.62% | 61.05% | 39.11% |
 
 ## Structure
 ```
