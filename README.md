@@ -1,6 +1,6 @@
 # YOLO-VOC
 
-This is a repo about modified implementation of YOLO family (now updated to **YOLOv3**) written in PyTorch from scratch, and it's also the first time I try to implement an object detection model myself.  
+This is a repo about modified implementation of YOLO family (now updated to **YOLOv4**) written in PyTorch from scratch, and it's also the first time I try to implement an object detection model myself.  
 I'm using `PyTorch 2.10.0+cu128` in `Python 3.12.0`.  
 
 | Model | Train Dataset | Val Dataset | Epochs | Input Size | Test Size | mAP@0.5 | mAP@0.6 | mAP@0.75
