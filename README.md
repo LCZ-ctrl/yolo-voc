@@ -6,6 +6,7 @@ I'm using `PyTorch 2.10.0+cu128` in `Python 3.12.0`.
 | Model  | Train Dataset                       | Val Dataset  | Epochs | Input Size  | Test Size | mAP@0.5 | mAP@0.6 | mAP@0.75 |
 |:-------|:------------------------------------|:-------------|:-------|:------------|:----------|:--------|:--------|:---------|
 | YOLOv1 | VOC2007 trainval + VOC2012 trainval | VOC2007 test | 80     | multi-scale | 416x416   | 69.77%  | 61.51%  | 38.92%   |
+| YOLOv2 | VOC2007 trainval + VOC2012 trainval | VOC2007 test | 80     | multi-scale | 416x416   | 73.87%  | 66.06%  | 44.44%   |
 
 ## Requirements
 ```
@@ -47,6 +48,16 @@ It will randomly select an image in the test set, and then output the model's pr
   <img src="./yolov1/images/tennis.png" height="200" />
   <br>
   <em><strong>YOLOv1 Results</strong></em>
+</p>
+<br>
+<p align="center">
+  <img src="./yolov2/images/senna.png" height="200" />
+  <img src="./yolov2/images/cat.png" height="200" />
+  <br>
+  <img src="./yolov2/images/swan.png" height="200" />
+  <img src="./yolov2/images/ski.png" height="200" />
+  <br>
+  <em><strong>YOLOv2 Results</strong></em>
 </p>
 
 ## Acknowledgement
