@@ -124,4 +124,4 @@ own images!
 
 <br><br>
 <em><strong>My pre-trained
-model:</strong></em> [YOLOv3](https://drive.google.com/file/d/17F122qQvdsfd3r2e0SWNeMX4f5rEJLQt/view?usp=drive_link)
+model:</strong></em> [YOLOv3](https://drive.google.com/drive/folders/1zlH_ErHIDaLmMPeBzwOkJ-aXumOuZkHn?usp=sharing)
